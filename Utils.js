@@ -9,7 +9,7 @@ async function loadUtils() {
     console.log(`🚀 ${$.name}: 开始下载Utils代码`)
     return new Promise(async (resolve) => {
         $.getScript(
-            'https://mirror.ghproxy.com/https://raw.githubusercontent.com/xzxxn777/Surge/main/Utils/Utils.js'
+            'https://github.722331.xyz/https://raw.githubusercontent.com/qiyeshu0/Utils_Code/refs/heads/main/Utils.js'
         ).then((fn) => {
             $.setdata(fn, "Utils_Code")
             eval(fn)
