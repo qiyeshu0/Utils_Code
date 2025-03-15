@@ -9,7 +9,7 @@ async function loadUtils() {
     console.log(`🚀 ${$.name}: 开始下载Utils代码`)
     return new Promise(async (resolve) => {
         $.getScript(
-            'https://github.722331.xyz/https://raw.githubusercontent.com/qiyeshu0/Utils_Code/refs/heads/main/Utils.js'
+            'https://ghfast.top/https://raw.githubusercontent.com/xzxxn777/Surge/refs/heads/main/Utils/Utils.js'
         ).then((fn) => {
             $.setdata(fn, "Utils_Code")
             eval(fn)
